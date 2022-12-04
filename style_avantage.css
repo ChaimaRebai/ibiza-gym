@@ -1,0 +1,93 @@
+body{
+    font-family: "Niveau Grotesk",-apple-system,blinkmacsystemfont,"Segoe UI",roboto,oxygen-sans,ubuntu,cantarell,"Helvetica Neue",sans-serif;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    max-width: 975px;
+    margin: 0 auto;
+    column-gap: 20px;
+   
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.grid_container h3{
+    text-align: center;
+}
+
+.bienvenue{
+    background: linear-gradient(45deg,#036eb7,#64eaff); 
+    border-radius: 2%;
+    height: 50vh;
+    width: 170vh;
+   text-align: center;
+   margin-left: 100px;
+   padding-left: 50px;
+   padding-right: 50px;
+  
+  
+}
+
+.bienvenue h1{
+    color:#fff ;
+    padding-top: 35px;
+}
+
+.bienvenue p{
+    font-size:16px;
+    color: #fff;
+}
+
+.bienvenue span{
+    font-size: 20px;
+    color: #fff;
+}
+
+#btn{
+    display: inline-block;
+    margin-top: 1%;
+   
+  
+    background: linear-gradient(45deg,#036eb7,#64eaff); 
+    border: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 3px solid  #fff;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.abonne{
+    background: #fff;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 400px;
+    padding-bottom: 40px;
+}
+
+.abonne h2{
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.text{
+    font-size: 35px;
+    text-align: center;
+}
+
+.text span{
+    color:  #f5bb00;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
